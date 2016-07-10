@@ -1,0 +1,25 @@
+{
+  "name": "taskboard",
+  "version": "1.0.0",
+  "description": "A web friendly task board",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avelardo93/ToDoBoard.git"
+  },
+  "author": "Anthony Velardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avelardo93/ToDoBoard/issues"
+  },
+  "homepage": "https://github.com/avelardo93/ToDoBoard#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "router": "^1.1.4"
+  }
+}

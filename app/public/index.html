@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Project</title>
+	<title>To Do Task Board</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,7 +22,7 @@
     <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="bulletin">
         <div class="row">
           <h1>To Do Task Board</h1>
-          <h5>Add your task, description, and date/time you want it done by.</h5>
+          <h5>Add the task, description, and date/time you want it done by.</h5>
         </div>
         
         <!--START first row -->
@@ -42,18 +42,18 @@
               </div> 
 
               <!--Start first form -->
-                <form id="form1">
+                <form id="form1" action="/tasks" method="POST">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Task Name</label>
-                    <input type="text" class="form-control" id="name1" placeholder="Name">
+                    <input type="text" class="form-control" name="name1" id="name1" placeholder="Name">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Due date/time</label>
-                    <input type="url" class="form-control" id="url1" placeholder="URL">
+                    <input type="url" class="form-control" name="url1" id="url1" placeholder="Due date/time">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Brief Description</label>
-                    <input type="text" class="form-control" id="descr1" placeholder="Description">
+                    <input type="text" class="form-control" name="descr1" id="descr1" placeholder="Description">
                   </div>
                   <button type="submit" class="btn btn-default" id="submit1">Submit</button>
                 </form>
@@ -88,7 +88,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Due date/time</label>
-                    <input type="url" class="form-control" id="url2" placeholder="URL">
+                    <input type="url" class="form-control" id="url2" placeholder="Due date/time">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Brief Description</label>
@@ -127,7 +127,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Due date/time</label>
-                    <input type="text" class="form-control" id="url3" placeholder="URL">
+                    <input type="text" class="form-control" id="url3" placeholder="Due date/time">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Brief Description</label>
@@ -168,7 +168,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Due date/time</label>
-                    <input type="text" class="form-control" id="url4" placeholder="URL">
+                    <input type="text" class="form-control" id="url4" placeholder="Due date/time">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Brief Description</label>
@@ -208,7 +208,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Due date/time</label>
-                    <input type="text" class="form-control" id="url5" placeholder="URL">
+                    <input type="text" class="form-control" id="url5" placeholder="Due date/time">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Brief Description</label>
@@ -248,7 +248,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Due date/time</label>
-                    <input type="text" class="form-control" id="url6" placeholder="URL">
+                    <input type="text" class="form-control" id="url6" placeholder="Due date/time">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Brief Description</label>
